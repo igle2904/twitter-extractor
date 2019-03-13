@@ -19,10 +19,10 @@ class StreamListener(tweepy.StreamListener):
         return True # Sigue el stream conectado buscando tweets
  
 
-CONSUMER_KEY ='ZsWF03VgRGk6KjuNZ5pITBJPh'
-CONSUMER_SECRET = 'z3B6kyOzOpzCAkSRGXbwys00G3bnftDJBgUI0zEHcWVhr830Qr'
-ACCESS_TOKEN = '850649376087318528-hyFM1KX3kOUXf0plnijXZwiPOjeGEM8'
-ACCESS_TOKEN_SECRET = 'JsUBfJ7ARWNqIawnSJxfnIurvuP69yhOZ1VkygXqUqW8x'
+CONSUMER_KEY =''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
 
 # Autentificación
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
